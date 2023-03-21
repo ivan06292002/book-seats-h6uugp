@@ -1,0 +1,48 @@
+.container {
+  padding-top: 40px;
+}
+.coach_row {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1em;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.msg {
+  height: 2em;
+}
+
+.circle {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  color: white;
+}
+
+.rowx {
+  margin-right: 32px;
+  font-size: 0.71em;
+  background: rgb(14, 12, 12);
+}
+
+.seat {
+  background: green;
+  margin: 0 2px;
+}
+
+.seat.booked {
+  background: RED;
+}
